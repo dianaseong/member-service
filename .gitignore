@@ -1,0 +1,46 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# AWS CLI 설정 (보통 홈 디렉토리지만 혹시 복사된 경우 대비)
+.aws/
+*.pem  # AWS 키 페어 프라이빗 키
+*.key
+*.crt
+
+# AWS CDK나 CloudFormation 관련 파일이 있을 경우
+cdk.out/
